@@ -2,7 +2,7 @@
 
 A Retrieval-Augmented Generation (RAG) chatbot that answers questions grounded in academic papers on recommender systems, with sources cited. Built end-to-end: PDF ingestion, vector search, and LLM-based generation, deployed as a live Streamlit app.
 
-**Live app:** _add your Streamlit Cloud link here after deploying_
+**Live app:** [course-rag-assistant-9mxrzpqpehe5f6wxdl7seu.streamlit.app](https://course-rag-assistant-9mxrzpqpehe5f6wxdl7seu.streamlit.app/)
 
 ---
 
@@ -96,8 +96,8 @@ course-rag/
 ## Setup
 
 ```bash
-git clone <your-repo-url>
-cd course-rag
+git clone https://github.com/Riya14486/course-rag-assistant.git
+cd course-rag-assistant
 pip install -r requirements.txt
 ```
 
