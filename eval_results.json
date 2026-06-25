@@ -1,0 +1,50 @@
+[
+  {
+    "question": "What problems exist with offline evaluation methods for recommenders?",
+    "answer": "The context does not fully cover the problems with offline evaluation methods for recommenders. However, it mentions that a broader challenge going forward is the limited availability of fully observed datasets, which are essential for assessing the generalizability of findings across different domains.",
+    "retrieval_hit": true,
+    "semantic_score": 0.48857608437538147,
+    "keyword_score": 1.0,
+    "has_expected_data": true
+  },
+  {
+    "question": "What is order density (OD)?",
+    "answer": "Order density (OD) is defined as OD@20, which is calculated as the ratio of the number of items that are correctly ranked in the top 20 and have an order of 1, to the total number of items that are correctly ranked in the top 20.",
+    "retrieval_hit": true,
+    "semantic_score": 0.32460904121398926,
+    "keyword_score": 0.0,
+    "has_expected_data": true
+  },
+  {
+    "question": "What is popularity bias in recommender systems?",
+    "answer": "Popularity bias in recommender systems refers to the issue where algorithms favor already popular items over less popular ones, resulting in a skewed recommendation towards well-known content. This bias arises from the signals used to predict and optimize for engagement, which are often based on ranking-based logic. As a result, users are disproportionately recommended popular items.",
+    "retrieval_hit": true,
+    "semantic_score": 0.5860328078269958,
+    "keyword_score": 0.75,
+    "has_expected_data": true
+  },
+  {
+    "question": "What evaluation metrics are mentioned for measuring recommender system performance?",
+    "answer": "The evaluation metric mentioned for measuring recommender system performance is top-\ud835\udc58 metrics.",
+    "retrieval_hit": true,
+    "semantic_score": 0.11408837884664536,
+    "keyword_score": 0.0,
+    "has_expected_data": true
+  },
+  {
+    "question": "What dataset was used in the sampling reliability study?",
+    "answer": "The context does not fully answer the question about the dataset used in the sampling reliability study. However, it mentions that the study proposes an evaluation framework based on a \"fully observed dataset\" and conducts a comprehensive empirical analysis across multiple \"logging configurations\".",
+    "retrieval_hit": true,
+    "semantic_score": 0.03291179984807968,
+    "keyword_score": 0.0,
+    "has_expected_data": true
+  },
+  {
+    "question": "What is the PEAR algorithm and what does it do?",
+    "answer": "The PEAR algorithm is a utility-aware heuristic that maintains a posterior belief on the probability of the niche utility being (1-p)/p. It switches to recommending both items of the popular type when the posterior belief falls below the initial prior belief p. This enables the recommendation system to learn whether the niche type generates high utility for the user or not.",
+    "retrieval_hit": true,
+    "semantic_score": 0.49174708127975464,
+    "keyword_score": 0.75,
+    "has_expected_data": true
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What problems exist with offline evaluation methods for recommenders?",
+    "expected_answer_contains": ["limited availability", "fully observed datasets", "generalizability"],
+    "expected_source_file": "paper 1.pdf",
+    "notes": "From the conclusion of 'On the Reliability of Sampling Strategies in Offline Recommender Evaluation' (paper 1)."
+  },
+  {
+    "question": "What is order density (OD)?",
+    "expected_answer_contains": ["post-click conversion rate", "empirical probability", "clicked item", "ordered"],
+    "expected_source_file": "paper 2.pdf",
+    "notes": "From 'Identifying Offline Metrics that Predict Online Impact' (paper 2), Section 5. OD@20 is defined as the empirical probability that a clicked item is ordered given it's ranked in the top 20."
+  },
+  {
+    "question": "What is popularity bias in recommender systems?",
+    "expected_answer_contains": ["already popular", "niche", "skewed", "favor"],
+    "expected_source_file": "paper 3.pdf",
+    "notes": "From 'The Fault in Our Recommendations' (paper 3), Introduction and Related Literature section on popularity bias."
+  },
+  {
+    "question": "What evaluation metrics are mentioned for measuring recommender system performance?",
+    "expected_answer_contains": ["Recall", "nDCG", "precision"],
+    "expected_source_file": "paper 1.pdf",
+    "notes": "Paper 1 uses precision, recall, and nDCG at multiple cutoffs (@5, @10, @50, @100). Paper 2 defines Recall@20 and OD@20."
+  },
+  {
+    "question": "What dataset was used in the sampling reliability study?",
+    "expected_answer_contains": ["KuaiRec", "short-form videos"],
+    "expected_source_file": "paper 1.pdf",
+    "notes": "Paper 1 uses the KuaiRec dataset, a large-scale collection of user interactions with short-form videos, chosen because its test split is nearly fully observed (99.6% density)."
+  },
+  {
+    "question": "What is the PEAR algorithm and what does it do?",
+    "expected_answer_contains": ["utility-aware", "diverse", "popular", "niche"],
+    "expected_source_file": "paper 3.pdf",
+    "notes": "PEAR (Posterior-based Exploration-driven Adaptive Recommendations) is a utility-aware heuristic from paper 3 that recommends a mix of popular and niche items, improving user utility with minimal engagement loss."
+  }
+]
